@@ -1,0 +1,62 @@
+/*
+ Theme Name:   Twenty twenty Child Theme
+ Description:  A Twenty Twenty child theme 
+ Author:       Svjat
+ Template:     twentytwenty
+ Version:      1.0.0
+*/
+
+@import url("../twentytwenty/style.css");
+.front-page-movies {
+    padding: 0 2rem;
+}
+
+.custom_fields {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie_poster {
+    margin: 2rem;
+}
+
+.movie_genres,
+.movie_countries,
+.movie_years,
+.movie_actors {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    margin-bottom: 0;
+}
+
+ul>li {
+    margin: 0;
+    list-style-type: none;
+}
+
+.filter_title {
+    text-align: center;
+    padding: 6rem 0 0 0;
+}
+
+.recent_movies {
+    display: flex;
+    flex-direction: column;
+}
+
+.taxonomies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.taxonomy_list {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
